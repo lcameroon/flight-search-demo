@@ -1,0 +1,51 @@
+// search content
+.content-header h2 {
+  float: left;
+  margin: 5px 0 0 0;
+  font-weight: inherit;
+}
+
+// search
+.meta-date-top {
+  float: right;
+
+  .align-left {
+    padding-right: 10px; font-weight: bold;
+  }
+}
+.flight-group-item {
+  margin-bottom: 16px;
+
+  .flight-item-price {
+    font-size: 1.6em;
+  }
+  .flight-item-button {
+    .md-button {
+      width: 97%;
+      margin: 10px 0;
+    }
+  }
+}
+.route-group-info {
+  .route-info {
+    display: block;
+  }
+  .route-info-airport {
+    .ng-isolate-scope {
+      vertical-align: text-top;
+      color: #000;
+    }
+  }
+  .route-info-flight-number {
+    font-size: .8em;
+    opacity: .5;
+  }
+  .route-info-airport {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .route-info-depart,
+  .route-info-arrival {
+    opacity: .7;
+  }
+}

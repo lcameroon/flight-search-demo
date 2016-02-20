@@ -1,0 +1,81 @@
+<form ng-submit="$event.preventDefault(); ctrl.fetchResults()" name="searchForm">
+
+  <md-autocomplete flex required
+      md-input-name="fromAirport"
+      md-no-cache="ctrl.noCache"
+      md-selected-item="ctrl.selectedItem"
+      md-search-text="ctrl.searchText"
+      md-items="item in ctrl.querySearch(ctrl.searchText)"
+      md-item-text="item.name"
+      md-selected-item-change="ctrl.isInvalid(searchForm.fromAirport, item.name);
+        ctrl.isDuplicate(searchForm.fromAirport, ctrl.selectedItem.code, ctrl.selectedItem2.code)"
+      md-min-length="0"
+      md-floating-label="Flying from">
+    <md-item-template>
+      <span md-highlight-text="ctrl.searchText">{{item.name}}</span>
+    </md-item-template>
+    <md-not-found>
+      No matches found for "{{ctrl.searchText}}".
+    </md-not-found>
+    <div ng-messages="searchForm.fromAirport.$error"
+         ng-if="searchForm.fromAirport.$touched">
+      <span ng-message="required">You <strong>must</strong> have an origin.</span>
+      <span ng-message="invalid">You <strong>must</strong> have a valid input.</span>
+      <span ng-message="duplicate">Destination must be different</span>
+    </div>
+  </md-autocomplete>
+
+  <md-autocomplete flex required
+      md-input-name="toAirport"
+      md-no-cache="ctrl.noCache"
+      md-selected-item="ctrl.selectedItem2"
+      md-search-text="ctrl.searchText2"
+      md-items="item in ctrl.querySearch(ctrl.searchText2)"
+      md-item-text="item.name"
+      md-selected-item-change="ctrl.isInvalid(searchForm.toAirport, item.name);
+        ctrl.isDuplicate(searchForm.toAirport, ctrl.selectedItem2.code, ctrl.selectedItem.code)"
+      md-min-length="0"
+      md-floating-label="Destination">
+    <md-item-template>
+      <span md-highlight-text="ctrl.searchText2">{{item.name}}</span>
+    </md-item-template>
+    <div ng-messages="searchForm.toAirport.$error"
+         ng-if="searchForm.toAirport.$touched">
+      <span ng-message="required">You <strong>must</strong> have a destination.</span>
+      <span ng-message="invalid">You <strong>must</strong> have a valid input.</span>
+      <span ng-message="duplicate">Destination must be different</span>
+    </div>
+  </md-autocomplete>
+
+  <md-input-container flex>
+    <label>Departure Date</label>
+    <input required type="date" min="{{ctrl.today | date:'yyyy-MM-dd'}}"
+           class="md-input-date" ng-model="searchData.departureDate">
+  </md-input-container>
+  <div ng-messages="searchForm.departureDate.$error"
+       ng-if="searchForm.departureDate.$touched">
+    <span ng-message="required">You <strong>must</strong> have a departure date.</span>
+  </div>
+
+  <md-input-container flex ng-if="searchData.searchTab">
+    <label>Return Date</label>
+    <input required type="date" min="{{searchData.departureDate | date:'yyyy-MM-dd'}}"
+           class="md-input-date" ng-model="searchData.returnDate">
+  </md-input-container>
+  <div ng-messages="searchForm.returnDate.$error"
+       ng-if="searchForm.returnDate.$touched">
+    <span ng-message="required">You <strong>must</strong> have a return date.</span>
+  </div>
+
+  <md-select required class="md-select" placeholder="1 Passenger"
+      ng-model="searchData.passengers">
+    <md-option ng-repeat="num in ctrl.maxPassengers" value="{{num}}">{{num}}</md-option>
+  </md-select>
+  <div ng-messages="searchForm.passengers.$error"
+       ng-if="searchForm.passengers.$touched">
+    <span ng-message="required">You <strong>must</strong> have a number of passenger.</span>
+  </div>
+
+  <md-button type="submit" class="md-raised md-accent">Search</md-button>
+
+</form>

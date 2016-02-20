@@ -1,0 +1,150 @@
+<!-- progress-circular -->
+<div layout="row" flex layout-sm="column" layout-align="space-around"
+    ng-show="searchData.progress">
+  <md-progress-circular class="md-progress-circular md-hue-2" md-mode="indeterminate"></md-progress-circular>
+</div>
+
+<p class="md-padding" ng-hide="flights">Search for Flights</p>
+
+<div class="content-wrapper" ng-if="flights">
+  <!-- content-header -->
+  <div class="content-header clearfix md-padding">
+    <h2>Your Results</h2>
+    <div class="meta-date-top" ng-if="flights">
+      <small class="align-left">Depart:</small>
+      <small class="align-right">{{ searchData.departureDate | date:'d MMM yyyy'}}</small><br>
+      <span ng-if="searchData.searchTab" ng-show="searchData.returnDate">
+        <small class="align-left">Return:</small>
+        <small class="align-right">{{ searchData.returnDate | date:'d MMM yyyy'}}</small>
+      </span>
+    </div>
+  </div>
+
+  <!-- search result -->
+  <md-content layout="column" flex class="md-padding flight-group">
+    <!-- oneway -->
+    <md-whiteframe class="md-whiteframe-z1 md-padding flight-group-item"
+        layout="row" layout-wrap layout-align="center center"
+        ng-if="!searchData.searchTab"
+        ng-repeat="flight in flights | rangeFilter:searchData.range">
+      <div class="flight-item-img" flex="20" hide-sm>
+        <img src="./assets/images/placehold.png" alt="Airline Logo" style="width: 90%;">
+      </div>
+      <div class="flight-item-route route-group-info departure" flex="20" flex-sm="50">
+        <span class="route-info route-info-flight-number">
+          {{ flight.outboundRoute.airlineCode }}-{{ flight.outboundRoute.flightNumber }}
+        </span>
+        <span class="route-info route-info-airport">
+          <md-icon aria-label="Flight takeoff" md-svg-icon="./assets/images/flight-takeoff.svg"></md-icon>
+          <!-- The correct data is:
+          {{ flight.outboundRoute.departure.location.airportCode }}
+          -->
+          {{ ctrl.selectedItem.code }}
+        </span>
+        <span class="route-info route-info-depart">
+          <span class="route-info-label">Depart:</span>
+          <span class="route-info-time">
+            {{ flight.outboundRoute.departure.dateTime.time }}
+            <!-- OR:
+            {{ flight.outboundRoute.departure.dateTime.raw | date:'h:mm a' }}
+            -->
+          </span>
+        </span>
+      </div>
+      <div class="flight-item-route route-group-info arrival" flex="20" flex-sm="50">
+        <span class="route-info route-info-flight-number">
+          {{ flight.outboundRoute.airlineCode }}-{{ flight.outboundRoute.flightNumber }}
+        </span>
+        <span class="route-info route-info-airport">
+          <md-icon aria-label="Flight land" md-svg-icon="./assets/images/flight-land.svg"></md-icon>
+          <!-- The correct data is:
+          {{ flight.outboundRoute.arrival.location.airportCode }}
+          -->
+          {{ ctrl.selectedItem2.code }}
+        </span>
+        <span class="route-info route-info-arrival">
+          <span class="route-info-label">Arrive:</span>
+          <span class="route-info-time">
+            {{ flight.outboundRoute.arrival.dateTime.time }}
+            <!-- OR:
+            {{ flight.outboundRoute.arrival.dateTime.raw | date:'h:mm a' }} -->
+          </span>
+        </span>
+      </div>
+      <div class="flight-item-price" flex="20" flex-sm="50">
+        {{ flight.price.raw.amount | currency:flight.price.formatted.symbol }}
+      </div>
+      <div class="flight-item-button" flex="20" flex-sm="50">
+        <md-button class="md-raised md-primary">Select this flight</md-button>
+      </div>
+    </md-whiteframe>
+
+    <!-- roundtrip -->
+    <md-whiteframe class="md-whiteframe-z1 md-padding flight-group-item"
+        layout="row" layout-wrap layout-align="center center"
+        ng-if="searchData.searchTab" ng-show="searchData.returnDate"
+        ng-repeat="flight in flights | rangeFilter:searchData.range">
+      <div class="flight-item-img" flex="20" hide-sm>
+        <img src="./assets/images/placehold.png" alt="Airline Logo" style="width: 90%;">
+      </div>
+      <div class="flight-item-route route-group-info departure" flex="20" flex-sm="50">
+        <span class="route-info route-info-flight-number">
+          {{ flight.outboundRoute.airlineCode }}-{{ flight.outboundRoute.flightNumber }}
+        </span>
+        <span class="route-info route-info-airport">
+          <md-icon aria-label="Flight outbound" md-svg-icon="./assets/images/flight-outbound.svg"></md-icon>
+          <!-- The correct data are:
+          {{ flight.outboundRoute.departure.location.airportCode }}
+          {{ flight.outboundRoute.arrival.location.airportCode }}
+          -->
+          {{ ctrl.selectedItem.code }} &gt; {{ ctrl.selectedItem2.code }}
+        </span>
+        <span class="route-info route-info-depart">
+          <span class="route-info-label">Depart:</span>
+          <span class="route-info-time">
+            {{ flight.outboundRoute.departure.dateTime.time }}
+          </span>
+        </span>
+        <span class="route-info route-info-arrival">
+          <span class="route-info-label">Arrive:</span>
+          <span class="route-info-time">
+            {{ flight.outboundRoute.arrival.dateTime.time }}
+          </span>
+        </span>
+      </div>
+      <div class="flight-item-route route-group-info arrival" flex="20" flex-sm="50">
+        <span class="route-info route-info-flight-number">
+          {{ flight.inboundRoute.airlineCode }}-{{ flight.inboundRoute.flightNumber }}
+        </span>
+        <span class="route-info route-info-airport">
+          <md-icon aria-label="Flight inbound" md-svg-icon="./assets/images/flight-inbound.svg"></md-icon>
+          <!-- The correct data are:
+          {{ flight.inboundRoute.departure.location.airportCode }}
+          {{ flight.inboundRoute.arrival.location.airportCode }}
+          -->
+          {{ ctrl.selectedItem2.code }} &gt; {{ ctrl.selectedItem.code }}
+        </span>
+        <span class="route-info route-info-depart">
+          <span class="route-info-label">Depart:</span>
+          <span class="route-info-time">
+            {{ flight.inboundRoute.departure.dateTime.time }}
+          </span>
+        </span>
+        <span class="route-info route-info-arrival">
+          <span class="route-info-label">Arrive:</span>
+          <span class="route-info-time">
+            {{ flight.inboundRoute.arrival.dateTime.time }}
+          </span>
+        </span>
+      </div>
+      <div class="flight-item-price" flex="20" flex-sm="50">
+        {{ flight.price.raw.amount | currency:flight.price.formatted.symbol }}
+      </div>
+      <div class="flight-item-button" flex="20" flex-sm="50">
+        <md-button class="md-raised md-primary">Select this flight</md-button>
+      </div>
+    </md-whiteframe>
+
+  </md-content>
+
+</div>

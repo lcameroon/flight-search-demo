@@ -1,0 +1,558 @@
+{
+  "status" : "SUCCEEDED",
+  "results": [
+    {
+      "code": "AUH",
+      "name": "Abu Dhabi",
+      "countryCode": "AE",
+      "countryName": "United Arab Emirates",
+      "regionName": "Middle East"
+    }, {
+      "code": "ALY",
+      "name": "Alexandria",
+      "countryCode": "EG",
+      "countryName": "Egypt",
+      "regionName": "Middle East"
+    }, {
+      "code": "LTS",
+      "name": "Altus",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "ANK",
+      "name": "Ankara",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe"
+    }, {
+      "code": "AIY",
+      "name": "Atlantic City",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "BAK",
+      "name": "Baku",
+      "countryCode": "AZ",
+      "countryName": "Azerbaijan",
+      "regionName": "Europe"
+    }, {
+      "code": "BKK",
+      "name": "Bangkok",
+      "countryCode": "TH",
+      "countryName": "Thailand",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "EAP",
+      "name": "Basel",
+      "countryCode": "CH",
+      "countryName": "Switzerland",
+      "regionName": "Europe"
+    }, {
+      "code": "BJS",
+      "name": "Beijing",
+      "countryCode": "CN",
+      "countryName": "China",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "BFS",
+      "name": "Belfast",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe"
+    }, {
+      "code": "BHZ",
+      "name": "Belo Horizonte",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "regionName": "Latin America"
+    }, {
+      "code": "BER",
+      "name": "Berlin",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe"
+    }, {
+      "code": "BXN",
+      "name": "Bodrum",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe"
+    }, {
+      "code": "BRU",
+      "name": "Brussels",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "regionName": "Europe"
+    }, {
+      "code": "BUH",
+      "name": "Bucharest",
+      "countryCode": "RO",
+      "countryName": "Romania",
+      "regionName": "Europe"
+    }, {
+      "code": "BUE",
+      "name": "Buenos Aires",
+      "countryCode": "AR",
+      "countryName": "Argentina",
+      "regionName": "Latin America"
+    }, {
+      "code": "CAS",
+      "name": "Casablanca",
+      "countryCode": "MA",
+      "countryName": "Morocco",
+      "regionName": "Africa"
+    }, {
+      "code": "WCA",
+      "name": "Castro",
+      "countryCode": "CL",
+      "countryName": "Chile",
+      "regionName": "Latin America"
+    }, {
+      "code": "CHI",
+      "name": "Chicago",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "CVG",
+      "name": "Cincinnati",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "CSM",
+      "name": "Clinton",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "CGN",
+      "name": "Cologne",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe"
+    }, {
+      "code": "QDF",
+      "name": "Dallas - Fort Worth",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "DTT",
+      "name": "Detroit",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "DXB",
+      "name": "Dubai",
+      "countryCode": "AE",
+      "countryName": "United Arab Emirates",
+      "regionName": "Middle East"
+    }, {
+      "code": "DUS",
+      "name": "Dusseldorf",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe"
+    }, {
+      "code": "YEA",
+      "name": "Edmonton",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America"
+    }, {
+      "code": "ENS",
+      "name": "Enschede",
+      "countryCode": "NL",
+      "countryName": "Netherlands",
+      "regionName": "Europe"
+    }, {
+      "code": "FYV",
+      "name": "Fayetteville",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "FLR",
+      "name": "Florence",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "regionName": "Europe"
+    }, {
+      "code": "FMY",
+      "name": "Fort Myers",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "HAR",
+      "name": "Harrisburg",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "HFD",
+      "name": "Hartford",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "QHO",
+      "name": "Houston",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "IST",
+      "name": "Istanbul",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe"
+    }, {
+      "code": "IZM",
+      "name": "Izmir",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe"
+    }, {
+      "code": "JKT",
+      "name": "Jakarta",
+      "countryCode": "ID",
+      "countryName": "Indonesia",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "MKC",
+      "name": "Kansas City",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "IEV",
+      "name": "Kiev",
+      "countryCode": "UA",
+      "countryName": "Ukraine",
+      "regionName": "Europe"
+    }, {
+      "code": "ILE",
+      "name": "Killeen",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "KUL",
+      "name": "Kuala Lumpur",
+      "countryCode": "MY",
+      "countryName": "Malaysia",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "LIL",
+      "name": "Lille",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe"
+    }, {
+      "code": "LNZ",
+      "name": "Linz",
+      "countryCode": "AT",
+      "countryName": "Austria",
+      "regionName": "Europe"
+    }, {
+      "code": "LON",
+      "name": "London",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe"
+    }, {
+      "code": "LYS",
+      "name": "Lyon",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe"
+    }, {
+      "code": "MMA",
+      "name": "Malmo",
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "regionName": "Europe"
+    }, {
+      "code": "MES",
+      "name": "Medan",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "regionName": "Europe"
+    }, {
+      "code": "MEL",
+      "name": "Melbourne",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "MIL",
+      "name": "Milan",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "regionName": "Europe"
+    }, {
+      "code": "MLW",
+      "name": "Monrovia",
+      "countryCode": "LR",
+      "countryName": "Liberia",
+      "regionName": "Africa"
+    }, {
+      "code": "YMQ",
+      "name": "Montreal",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America"
+    }, {
+      "code": "MOW",
+      "name": "Moscow",
+      "countryCode": "RU",
+      "countryName": "Russian Federation",
+      "regionName": "Europe"
+    }, {
+      "code": "NYC",
+      "name": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "NHA",
+      "name": "Nha Trang",
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "NQT",
+      "name": "Nottingham",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe"
+    }, {
+      "code": "ORL",
+      "name": "Orlando",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "OSA",
+      "name": "Osaka",
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "OSL",
+      "name": "Oslo",
+      "countryCode": "NO",
+      "countryName": "Norway",
+      "regionName": "Europe"
+    }, {
+      "code": "YOW",
+      "name": "Ottawa",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America"
+    }, {
+      "code": "PFN",
+      "name": "Panama City",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "PAR",
+      "name": "Paris",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe"
+    }, {
+      "code": "QPH",
+      "name": "Philadelphia",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "REK",
+      "name": "Reykjavik",
+      "countryCode": "IS",
+      "countryName": "Iceland",
+      "regionName": "Europe"
+    }, {
+      "code": "RIO",
+      "name": "Rio De Janeiro",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "regionName": "Latin America"
+    }, {
+      "code": "ROM",
+      "name": "Rome",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "regionName": "Europe"
+    }, {
+      "code": "SSX",
+      "name": "Samsun",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe"
+    }, {
+      "code": "SRZ",
+      "name": "Santa Cruz",
+      "countryCode": "BO",
+      "countryName": "Bolivia",
+      "regionName": "Latin America"
+    }, {
+      "code": "SAO",
+      "name": "Sao Paulo",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "regionName": "Latin America"
+    }, {
+      "code": "SPK",
+      "name": "Sapporo",
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "SSM",
+      "name": "Sault Ste Marie",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "SEA",
+      "name": "Seattle",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "SEL",
+      "name": "Seoul",
+      "countryCode": "KR",
+      "countryName": "Korea - Republic Of",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "SHA",
+      "name": "Shanghai",
+      "countryCode": "CN",
+      "countryName": "China",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "SDZ",
+      "name": "Shetland Islands",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe"
+    }, {
+      "code": "SFY",
+      "name": "Springfield",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "STX",
+      "name": "St Croix Island",
+      "countryCode": "VI",
+      "countryName": "Virgin Islands (U.S.)",
+      "regionName": "North America"
+    }, {
+      "code": "SLU",
+      "name": "St Lucia",
+      "countryCode": "LC",
+      "countryName": "Saint Lucia",
+      "regionName": "North America"
+    }, {
+      "code": "SBS",
+      "name": "Steamboat Springs",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "STO",
+      "name": "Stockholm",
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "regionName": "Europe"
+    }, {
+      "code": "SXB",
+      "name": "Strasbourg",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe"
+    }, {
+      "code": "STR",
+      "name": "Stuttgart",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe"
+    }, {
+      "code": "TPE",
+      "name": "Taipei",
+      "countryCode": "TW",
+      "countryName": "Taiwan",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "QUF",
+      "name": "Tallinn",
+      "countryCode": "EE",
+      "countryName": "Estonia",
+      "regionName": "Europe"
+    }, {
+      "code": "TPA",
+      "name": "Tampa - St Petersburg",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "THR",
+      "name": "Tehran",
+      "countryCode": "IR",
+      "countryName": "Iran (Islamic Republic Of)",
+      "regionName": "Middle East"
+    }, {
+      "code": "TCI",
+      "name": "Tenerife",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "regionName": "Europe"
+    }, {
+      "code": "TYO",
+      "name": "Tokyo",
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "regionName": "Asia Pacific"
+    }, {
+      "code": "YTO",
+      "name": "Toronto",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America"
+    }, {
+      "code": "ULY",
+      "name": "Ulyanovsk",
+      "countryCode": "RU",
+      "countryName": "Russian Federation",
+      "regionName": "Europe"
+    }, {
+      "code": "VIE",
+      "name": "Vienna",
+      "countryCode": "AT",
+      "countryName": "Austria",
+      "regionName": "Europe"
+    }, {
+      "code": "WAS",
+      "name": "Washington",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America"
+    }, {
+      "code": "SIA",
+      "name": "Xi An",
+      "countryCode": "CN",
+      "countryName": "China",
+      "regionName": "Asia Pacific"
+    }
+  ]
+}
