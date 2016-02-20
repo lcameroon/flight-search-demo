@@ -1,0 +1,1131 @@
+[{
+  "status": "SUCCEEDED",
+  "fareDetails": {
+    "highestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 215
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "215.00",
+        "symbol": "£"
+      }
+    },
+    "lowestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 145
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "145.00",
+        "symbol": "£"
+      }
+    }
+  },
+  "results": [{
+    "outboundRoute": {
+      "flightNumber": 102,
+      "airlineCode": "AA",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "10:40 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "01:10 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 100,
+      "airlineCode": "AA",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-07-02",
+          "time": "11:15 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-07-02",
+          "time": "02:40 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 215
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "215.00",
+        "symbol": "£"
+      }
+    }
+  }, {
+    "outboundRoute": {
+      "flightNumber": 712,
+      "airlineCode": "BB",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "03:10 PM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "08:05 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 711,
+      "airlineCode": "BB",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "08:50 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "10:10 AM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 145
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "145.00",
+        "symbol": "£"
+      }
+    }
+  }]
+}, {
+  "status": "SUCCEEDED",
+  "fareDetails": {
+    "highestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 300
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "300.00",
+        "symbol": "£"
+      }
+    },
+    "lowestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 150
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "150.00",
+        "symbol": "£"
+      }
+    }
+  },
+  "results": [{
+    "outboundRoute": {
+      "flightNumber": 112,
+      "airlineCode": "UA",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "10:45 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "01:05 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 110,
+      "airlineCode": "UA",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-07-02",
+          "time": "11:10 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-07-02",
+          "time": "02:35 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 300
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "300.00",
+        "symbol": "£"
+      }
+    }
+  }, {
+    "outboundRoute": {
+      "flightNumber": 8012,
+      "airlineCode": "NZ",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "03:15 PM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "08:00 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 8001,
+      "airlineCode": "NZ",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "08:55 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "10:20 AM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 255
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "255.00",
+        "symbol": "£"
+      }
+    }
+  }, {
+    "outboundRoute": {
+      "flightNumber": 505,
+      "airlineCode": "QL",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "07:00 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "01:00 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 500,
+      "airlineCode": "QL",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "09:20 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "05:10 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 150
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "150.00",
+        "symbol": "£"
+      }
+    }
+  }]
+}, {
+  "status": "SUCCEEDED",
+  "fareDetails": {
+    "highestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 405
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "405.00",
+        "symbol": "£"
+      }
+    },
+    "lowestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 220
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "220.00",
+        "symbol": "£"
+      }
+    }
+  },
+  "results": [{
+    "outboundRoute": {
+      "flightNumber": 222,
+      "airlineCode": "CA",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "10:00 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "01:22 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 111,
+      "airlineCode": "CA",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-07-02",
+          "time": "10:15 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-07-02",
+          "time": "02:00 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 405
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "405.00",
+        "symbol": "£"
+      }
+    }
+  }, {
+    "outboundRoute": {
+      "flightNumber": 3232,
+      "airlineCode": "TS",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "04:15 PM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "08:10 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 3243,
+      "airlineCode": "TS",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "09:55 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "10:44 AM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 345
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "345.00",
+        "symbol": "£"
+      }
+    }
+  }, {
+    "outboundRoute": {
+      "flightNumber": 989,
+      "airlineCode": "WS",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "07:12 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "01:23 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 988,
+      "airlineCode": "WS",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "09:55 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "06:10 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 232
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "232.00",
+        "symbol": "£"
+      }
+    }
+  }, {
+    "outboundRoute": {
+      "flightNumber": 6545,
+      "airlineCode": "ML",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "08:34 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "03:00 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "inboundRoute": {
+      "flightNumber": 6549,
+      "airlineCode": "ML",
+      "departure": {
+        "location": {
+          "airportCode": "XXX"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "11:55 AM",
+          "raw": 1439097600000
+        }
+      },
+      "arrival": {
+        "location": {
+          "airportCode": "ZZZ"
+        },
+        "dateTime": {
+          "date": "2015-06-26",
+          "time": "02:10 PM",
+          "raw": 1439097600000
+        }
+      }
+    },
+    "price": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 220
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "220.00",
+        "symbol": "£"
+      }
+    }
+  }]
+}, {
+  "status": "SUCCEEDED",
+  "fareDetails": {
+    "highestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 395
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "395.00",
+        "symbol": "£"
+      }
+    },
+    "lowestFare": {
+      "raw": {
+        "currencyCode": "GBP",
+        "amount": 155
+      },
+      "formatted": {
+        "currencyCode": "GBP",
+        "amount": "155.00",
+        "symbol": "£"
+      }
+    }
+  },
+  "results": [{
+      "outboundRoute": {
+        "flightNumber": 4543,
+        "airlineCode": "JA",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "10:45 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "01:45 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 4434,
+        "airlineCode": "JA",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-07-02",
+            "time": "10:44 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-07-02",
+            "time": "02:12 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 395
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "395.00",
+          "symbol": "£"
+        }
+      }
+    }, {
+      "outboundRoute": {
+        "flightNumber": 987,
+        "airlineCode": "DV",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "05:15 PM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "09:12 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 9088,
+        "airlineCode": "DV",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "09:20 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "10:22 AM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 340
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "340.00",
+          "symbol": "£"
+        }
+      }
+    }, {
+      "outboundRoute": {
+        "flightNumber": 332,
+        "airlineCode": "LK",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "07:11 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "02:23 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 333,
+        "airlineCode": "LK",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "09:09 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "06:19 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 223
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "223.00",
+          "symbol": "£"
+        }
+      }
+    }, {
+      "outboundRoute": {
+        "flightNumber": 202,
+        "airlineCode": "BO",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "08:22 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "03:23 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 303,
+        "airlineCode": "BO",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "11:07 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "02:01 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 205
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "205.00",
+          "symbol": "£"
+        }
+      }
+    }, {
+      "outboundRoute": {
+        "flightNumber": 332,
+        "airlineCode": "LK",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "07:11 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "02:23 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 333,
+        "airlineCode": "LK",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "09:09 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "06:19 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 223
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "223.00",
+          "symbol": "£"
+        }
+      }
+    }, {
+      "outboundRoute": {
+        "flightNumber": 5452,
+        "airlineCode": "RE",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "08:08 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "03:03 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 5544,
+        "airlineCode": "RE",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "11:11 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "02:11 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 185
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "185.00",
+          "symbol": "£"
+        }
+      }
+    }, {
+      "outboundRoute": {
+        "flightNumber": 332,
+        "airlineCode": "LK",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "07:11 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "02:23 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 333,
+        "airlineCode": "LK",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "09:09 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "06:19 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 223
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "223.00",
+          "symbol": "£"
+        }
+      }
+    }, {
+      "outboundRoute": {
+        "flightNumber": 893,
+        "airlineCode": "US",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "09:28 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "04:44 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "inboundRoute": {
+        "flightNumber": 839,
+        "airlineCode": "US",
+        "departure": {
+          "location": {
+            "airportCode": "XXX"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "12:12 AM",
+            "raw": 1439097600000
+          }
+        },
+        "arrival": {
+          "location": {
+            "airportCode": "ZZZ"
+          },
+          "dateTime": {
+            "date": "2015-06-26",
+            "time": "04:43 PM",
+            "raw": 1439097600000
+          }
+        }
+      },
+      "price": {
+        "raw": {
+          "currencyCode": "GBP",
+          "amount": 145
+        },
+        "formatted": {
+          "currencyCode": "GBP",
+          "amount": "145.00",
+          "symbol": "£"
+        }
+      }
+    }
+
+  ]
+}]

@@ -1,0 +1,35 @@
+// header
+.md-toolbar-tools h1 {
+  font-size: 1.2em;
+  font-weight: inherit;
+  margin: inherit;
+}
+// tab
+.search-form-tabs .md-padding { background: #f6f6f6; }
+
+// buttons
+.md-raised.md-accent { margin-left: 0; width: 99%; }
+.refine-flight-search-title {
+  margin-top: 0;
+}
+
+.md-input-date,
+.md-select, .md-select-label { width: 100%; }
+
+// helper
+.align-left { float: left; }
+.align-right { float: right; }
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+// progress-circular
+.md-progress-circular {
+  margin: 20px auto;
+}

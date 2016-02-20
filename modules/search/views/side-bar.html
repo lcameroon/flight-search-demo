@@ -1,0 +1,34 @@
+<!-- tabs -->
+<md-content class="search-form-tabs">
+  <md-tabs md-dynamic-height md-border-bottom md-selected="searchData.searchTab">
+    <md-tab label="One Way">
+      <md-content class="md-padding" ng-if="!searchData.searchTab">
+        <ng-include src="'./modules/search/views/search-form.html'">
+      </md-content>
+    </md-tab>
+    <md-tab label="Return">
+      <md-content class="md-padding" ng-if="searchData.searchTab">
+        <ng-include src="'./modules/search/views/search-form.html'">
+      </md-content>
+    </md-tab>
+  </md-tabs>
+</md-content>
+
+<!-- refine-flight-search -->
+<md-content class="refine-flight-search md-padding" ng-if="flights">
+  <div class="md-whiteframe-z1 md-padding">
+    <p class="refine-flight-search-title">
+      <strong>Refine Flight Search</strong>
+    </p>
+    <div>
+      <span class="align-left">
+        {{searchData.currencySymbol}} {{searchData.range.from}}
+      </span>
+      <span class="align-right">
+        {{searchData.currencySymbol}} {{searchData.range.to}}
+      </span>
+      <section data-range-slider class="range-slider" step="5"
+               ng-model="searchData.range" min="searchData.min" max="searchData.max"></section>
+    </div>
+  </div>
+</md-content>
